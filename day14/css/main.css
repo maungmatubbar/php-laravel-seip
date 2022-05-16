@@ -1,0 +1,126 @@
+.theme-color
+{
+    background-color: #1abc9c;
+}
+.text-color-success
+{
+    color: #1abc9c !important;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;;
+}
+.my-caption
+{
+    bottom: 140PX;
+}
+.navbar-nav li a:hover{
+    color: #1abc9c !important;
+}
+.my-carousel
+{
+    background: rgba(0,0,0,0.52);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.carousel-control-prev-icon
+{
+    background-color: #1abc9c;
+    position: absolute;
+    top: 200px;
+    padding: 40px;
+    left: 0px;
+}
+.carousel-control-next-icon
+{
+
+    background-color: #1abc9c;
+    position: absolute;
+    top: 200px;
+    padding: 40px;
+    right: 0px;
+}
+.feature-card:hover i,
+.feature-card:hover h5
+{
+    color: #1abc9c !important;
+}
+.new-collection-bg { background-color: #e9f0fd; }
+.line
+{
+    width: 200px;
+    height: 10px;
+    background-color: #1abc9c;
+    margin-left: 30%;
+}
+.collection-body
+{
+    background-color: #0dcaf0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+.btn1
+{
+    background-color: #1a1e21;
+    width: 80%;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #f8f9fa;
+}
+.btn2
+{
+    background-color: #6c757d;
+    color: #f8f9fa;
+    float: right;
+    padding: 10px;
+    width: 20%;
+    text-decoration: none;
+}
+.collection-body:hover .btn1,
+.collection-body:hover .btn2
+{
+    background-color: #1abc9c;
+    color: #f8f9fa;
+}
+.collection-body-hover
+{
+    height:86%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.57);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.card-collection:hover .collection-body-hover
+{
+    display: block;
+}
+.mt-10
+{
+    margin-top: 75px;
+}
+.card-collection:hover .btn1
+{
+    background-color: #1abc9c;
+    color: #f8f9fa;
+}
+.card-collection:hover .btn2
+{
+    background-color: #8ed4c6;
+    color: #f8f9fa;
+}
+/*.btn2:hover*/
+/*{*/
+/*    background-color: #1abc9c;*/
+/*    color: #f8f9fa;*/
+/*}*/

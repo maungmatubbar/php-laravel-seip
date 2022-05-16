@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PHP With Laravel framework</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+           <div class="container">
+               <a href="" class="navbar-brand">LOGO</a>
+               <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><i class="navbar-toggler-icon"></i></button>
+               <div id="menu" class="collapse navbar-collapse">
+                   <ul class="navbar-nav ms-auto">
+                       <li><a href="" class="nav-link">Home</a></li>
+                       <li><a href="" class="nav-link">About</a></li>
+                       <li class="dropdown">
+                           <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                           <ul class="dropdown-menu">
+                               <li><a href="" class="dropdown-item">Service One</a></li>
+                               <li><a href="" class="dropdown-item">Service Two</a></li>
+                           </ul>
+                       </li>
+                       <li><a href="" class="nav-link">Contact</a></li>
+                   </ul>
+               </div>
+           </div>
+        </nav>
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header"><strong>Registration Form</strong></div>
+                            <div class="card-body">
+                                <form action="" method="">
+                                    <div class="row mb-3">
+                                        <label for="firstName" class="col-md-3">First Name</label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="first_name" id="firstName" class="form-control" placeholder="Enter Your First Name">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="lastName" class="col-md-3">Last Name</label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="last_name" id="lastName" class="form-control" placeholder="Enter Your Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="email" class="col-md-3">Email Address</label>
+                                        <div class="col-md-9">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="address" class="col-md-3">Address</label>
+                                        <div class="col-md-9">
+                                            <textarea name="address" id="address" cols="30" rows="5" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="phone" class="col-md-3">Phone</label>
+                                        <div class="col-md-9">
+                                            <input type="number" name="phone" id="phone" class="form-control" placeholder="Enter Your Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="dateOfBirth" class="col-md-3">Date Of Birth</label>
+                                        <div class="col-md-9">
+                                            <input type="date" name="date_of_birth" id="dateOfBirth" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="col-md-3">Gender</label>
+                                        <div class="col-md-9">
+                                            <label for="male"><input type="radio" name="gender" id="male"> Male</label>
+                                            <label for="female"><input type="radio" name="gender" id="female"> Female</label>
+                                            <label for="other"><input type="radio" name="gender" id="other"> Other</label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="district" class="col-md-3">District Name</label>
+                                        <div class="col-md-9">
+                                            <select name="district_name" id="district" class="form-control">
+                                                <option value="">Select District</option>
+                                                <optgroup label="Dhaka">
+                                                    <option value="">Dhaka</option>
+                                                    <option value="">Saver</option>
+                                                    <option value="">Manikganj</option>
+                                                </optgroup>
+                                               <optgroup label="Barishal">
+                                                    <option value="">Barishal</option>
+                                                    <option value="">Patuakhali</option>
+                                                    <option value="">JaloKathi</option>
+                                               </optgroup>
+                                               <optgroup label="Chittagong">
+                                                   <option value="">Nowakhali</option>
+                                                   <option value="">Feni</option>
+                                                   <option value="">Comillah</option>
+                                                   <option value="">Loximpur</option>
+                                               </optgroup>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="password" class="col-md-3">Password</label>
+                                        <div class="col-md-9">
+                                            <input type="password" name="password" id="password" class="form-control" placeholder="Enter Your Password">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="image" class="col-md-3">Image</label>
+                                        <div class="col-md-9">
+                                            <input type="file" name="image" id="image" class="form-control" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-9 offset-3">
+                                            <label><input type="checkbox" name="agree" id="agree"> I agree with all terms and condition</label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-9 offset-3">
+                                            <input type="submit" name="submit" value="Register" class="btn btn-success form-control">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>SL No</th>
+                                    <th>Full Name</th>
+                                    <th>Email Address</th>
+                                    <th>Phone Number</th>
+                                    <th>Address</th>
+                                    <th>District</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Bhandon</td>
+                                    <td>bhandom@gmail.com</td>
+                                    <td>0181564565</td>
+                                    <td>Kathalbagan</td>
+                                    <td>Dhaka</td>
+                                    <td class="btn-group">
+                                        <a href="" class="btn btn-info">Edit</a>
+                                        <a href="" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Bhandon</td>
+                                    <td>bhandom@gmail.com</td>
+                                    <td>0181564565</td>
+                                    <td>Kathalbagan</td>
+                                    <td>Dhaka</td>
+                                    <td class="btn-group">
+                                        <a href="" class="btn btn-info">Edit</a>
+                                        <a href="" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Bhandon</td>
+                                    <td>bhandom@gmail.com</td>
+                                    <td>0181564565</td>
+                                    <td>Kathalbagan</td>
+                                    <td>Dhaka</td>
+                                    <td class="btn-group">
+                                        <a href="" class="btn btn-info">Edit</a>
+                                        <a href="" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>

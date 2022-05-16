@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+    font-family: bitm;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-'] {
+    float: left;
+    border: 1px solid gray;
+}
+.h-200{ height: 200px; }
+.h-50{ height: 50px; }
+.h-600{ height: 600px; }
+.h-250{ height: 250px; }
+.h-40{ height: 40px; }
+
+
+
+.row:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.bg-hotpink{ background-color: hotpink; }
+.bg-gray{ background-color: gray; }
+
+
+nav{
+    background-color: darkgray;
+    width: 100%;
+    float: left;
+}
+nav ul li
+{
+    float: left;
+    width: 120px;
+    list-style-type: none;
+    position: relative;
+}
+nav ul li a
+{
+    display: block;
+    height: 50px;
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: bitm;
+    transition: 1.5s;
+}
+nav ul li a:hover
+{
+    background-color: olivedrab;
+    color: hotpink;
+}
+.sub-ul {
+    display: none;
+    transition: 1.5s;
+}
+.sub-ul li
+{
+    width: 180px;
+}
+nav ul li:hover .sub-ul
+{
+    background-color: darkgray;
+    display: block;
+    position: absolute;
+}
+
+.box-one
+{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 50px;
+    border-radius: 150px;
+    float: left;
+}
+.box-two
+{
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/myself.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    border-radius: 150px;
+    float: left;
+    transform: scale(1);
+    transition: 1s;
+}
+.box-two:hover
+{
+    transform: scale(1.5);
+    border-radius: 0;
+}
+.box-three
+{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.box-three:hover
+{
+    transform: rotate(45deg);
+}
+.box-four
+{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+    transform: rotateX(0deg);
+    transition: 1s;
+}
+.box-four:hover
+{
+    transform: rotateX(360deg);
+}
+.box-five
+{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.box-five:hover
+{
+    transform: rotateY(360deg);
+}
+.box-six
+ {
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    margin: 50px;
+    float: left;
+    transform: skew(0deg);
+    transition: 1s;
+ }
+.box-six:hover
+{
+    transform: skewX(30deg);
+}
+.box-seven
+{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    margin: 50px;
+    float: left;
+    transform: skew(0deg);
+    transition: 1s;
+}
+.box-seven:hover
+{
+    transform: skewX(-30deg);
+}
+.box-eight
+{
+    height: 300px;
+    width: 150px;
+    background-color: wheat;
+    float: left;
+    margin: 10px;
+    transform: skewY(30deg);
+}
+.box-nine
+{
+    height: 300px;
+    width: 150px;
+    background-color: wheat;
+    float: left;
+    margin: 30px;
+    transform: skewY(-30deg);
+}
+@media screen and (max-width: 550px)
+{
+    [class*='col-']{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 551px) and (max-width: 800px)
+{
+    .col-md-1{ width: 8.33%; }
+    .col-md-2{ width: 16.66%; }
+    .col-md-3{ width: 25%; }
+    .col-md-4{ width: 33.33%; }
+    .col-md-5{ width: 41.66%; }
+    .col-md-6{ width: 50%; }
+    .col-md-7{ width: 58.33%; }
+    .col-md-8{ width: 66.66%; }
+    .col-md-9{ width: 75%; }
+    .col-md-10{ width: 83.33%; }
+    .col-md-11{ width: 91.66%; }
+    .col-md-12{ width: 100%; }
+    .md-none{ display: none; }
+}

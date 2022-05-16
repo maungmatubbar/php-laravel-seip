@@ -1,0 +1,75 @@
+@font-face {
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+    font-family: oswald;
+}
+.oswald { font-family: oswald; }
+.h-text-color { color: #374B67; }
+.hero-section
+{
+    height: 500px;
+    background-image: url("../images/31214.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-section h1
+{
+    font-family: oswald;
+
+}
+.bg-financail-adviser
+{
+    background-color: #0E3E7F;
+}
+.h-300 { height: 330px; }
+.card-image-top { margin-top: 50px; }
+.bg-our-capacity { background-color: #EAF2FD; }
+.counter-section
+{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    color: #C4D4EA;
+    background-position: center;
+}
+.inner-bg
+{
+    background-color: rgba(14,62,127,0.67);
+    height: 100%;
+
+}
+.bg-experience
+{
+    background-image: url("../images/expereince.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.experience-card
+{
+    margin-top: 80px;
+    padding-left: 35px;
+}
+.experience-card h1 {
+    font-size: 60px;
+    color: #CEDBED;
+
+}
+.line{
+    height: 3px;
+    width: 60px;
+    background-color: #0E3E7F;
+    margin-left: 45%;
+}
+.h-about {
+    color: #0E3E7F;
+}
+.paragraph {
+    color: #738294;
+}
+.about-card
+{
+    color: #0E3E7F;
+    box-shadow: 0px 10px 10px 10px #AEB4BC;
+}
